@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "awiam"
+version = "0.1.0"
+description = "Who is this caller? — a directory and session store where deactivation is immediate and a corrupt store is never an empty one."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+# No dependencies. An identity check that needs a service to answer fails open
+# the moment that service is unreachable, which is the one time it matters.
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[project.scripts]
+awiam = "awiam.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/Aitherium/awiam"
+Documentation = "https://github.com/Aitherium/awiam#readme"
+Repository = "https://github.com/Aitherium/awiam.git"
+Issues = "https://github.com/Aitherium/awiam/issues"
+
+[tool.setuptools]
+packages = ["awiam"]
