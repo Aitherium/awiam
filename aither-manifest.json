@@ -1,0 +1,25 @@
+{
+  "schemaVersion": "1",
+  "name": "awiam",
+  "description": "Who is this caller? A directory and session store that fails honestly.",
+  "url": "https://aitherium.github.io/awiam/",
+  "repository": "https://github.com/Aitherium/awiam",
+  "kind": "tool",
+  "status": "public",
+  "adopt": "Deactivate one session and watch it stop working immediately.",
+  "pairs_with": [
+    "awbac",
+    "awdit"
+  ],
+  "includes": [],
+  "metrics": {
+    "files": {
+      "value": 9,
+      "as_of": "2026-08-22T08:32:41-07:00"
+    },
+    "tests": {
+      "value": 1,
+      "as_of": "2026-08-22T08:32:41-07:00"
+    }
+  }
+}
