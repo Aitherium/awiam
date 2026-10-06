@@ -1,0 +1,30 @@
+# awiam
+
+> Who is this caller? A directory and session store that fails honestly.
+
+Deactivation that takes effect "eventually" is not deactivation, and a store that cannot be read reports zero users — which every caller reads as "nobody is authorised" or, worse, as an empty directory to helpfully repopulate.
+
+## Install
+
+```
+pip install awiam
+```
+
+## Use it in 30 seconds
+
+Deactivate one session and watch it stop working immediately.
+
+## Composes with
+
+- [awbac](https://aitherium.github.io/awbac/) — Role-based access control that fails closed and explains itself.
+- [awdit](https://aitherium.github.io/awdit/) — An append-only audit trail whose gaps are DETECTABLE.
+
+## Where it lives
+
+- Repo: https://github.com/Aitherium/awiam
+- Docs: https://aitherium.github.io/awiam/
+- Manifest (keys + the one-line adoption story): https://aitherium.github.io/awiam/aither-manifest.json
+
+This repository is mirrored from the AitherOS monorepo by `.github/workflows/sync-awiam.yml`; hand edits made here are overwritten on the next sync — change the source instead.
+
+Everything Aitherium, in one file for agents: https://aitherium.com/llms.txt
